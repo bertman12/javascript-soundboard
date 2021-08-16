@@ -1,0 +1,140 @@
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+  }
+
+  body{
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+  
+  .title-text{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: fantasy;
+    height: 10%;
+    align-items: center;
+  }
+
+  .keys {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .key {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0);
+    color:red;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sound {
+    font-size: 1.25rem;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background:rgba(0, 0, 0, 0.781);
+    border: 2px gray ridge;
+    border-radius: 10px;
+    color:goldenrod;
+  }
+
+
+:root {
+  --size:cover;
+  --position:center;
+  --repeat:no-repeat;
+}
+
+/*HERO IMAGE IDS*/
+  #anti-mage{
+    background-image: url(./images/antimage.jpg);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+
+  #invoker{
+    background-image: url(./images/invoker.jpg);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+
+  #necrophos{
+    background-image: url(./images/necrophos.png);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+
+  #witch-doctor{
+    background-image: url(./images/witch-doctor.jpg);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+  
+  #riki{
+    background-image: url(./images/riki.jpg);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+
+  #alchemist{
+    background-image: url(./images/alchemist.jpg);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+
+  #io{
+    background-image: url(./images/wisp.jpg);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+
+  #ogre-magi{
+    background-image: url(./images/ogre.png);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
+
+  #techies{
+    background-image: url(./images/techies.jpg);
+    background-size:var(--size);
+    background-position:var(--position);
+    background-repeat:var(--repeat);
+  }
